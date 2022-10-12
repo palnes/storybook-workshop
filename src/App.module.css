@@ -1,0 +1,19 @@
+.header {
+  color: hsl(233, 100%, 50%);
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: stretch;
+}
+
+.grid > div {
+  flex: 0 1 auto;
+  align-self: auto;
+}
