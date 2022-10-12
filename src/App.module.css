@@ -1,0 +1,28 @@
+:root {
+  --header-background-color: hsl(222, 83%, 60%);
+  --header-text-color: hsl(0, 0%, 25%);
+}
+
+:root[data-theme='dark'] {
+  --header-background-color: hsl(222, 83%, 30%);
+  --header-text-color: hsl(0, 0%, 25%);
+}
+
+.header {
+  color: var(--header-text-color);
+  background-color: var(--header-background-color);
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: stretch;
+}
+
+.grid > div {
+  flex: 0 1 auto;
+  align-self: auto;
+}

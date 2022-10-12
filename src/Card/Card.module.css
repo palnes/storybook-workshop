@@ -1,0 +1,14 @@
+:root {
+  --card-background-color: hsl(121, 34%, 70%);
+  --card-text-color: black;
+}
+
+:root[data-theme='dark'] {
+  --card-background-color: hsl(121, 34%, 30%);
+  --card-text-color: white;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  color: var(--card-text-color);
+}

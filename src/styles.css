@@ -1,0 +1,17 @@
+:root {
+  --body-background-color: white;
+  --body-text-color: black;
+}
+
+:root[data-theme='dark'] {
+  --body-background-color: black;
+  --body-text-color: white;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+
+#app {
+  font-family: 'Roboto', sans-serif;
+}
