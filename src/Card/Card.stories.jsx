@@ -14,9 +14,7 @@ export const Simple = Template.bind({});
 Simple.args = {
   children: (
     <>
-      Magna occaecat consectetur consectetur eiusmod dolor quis non est laborum.
-      Exercitation magna commodo id magna est nostrud occaecat minim sit culpa
-      ex nulla.
+      Bacon ipsum dolor amet chislic venison filet mignon tenderloin beef ribs andouille chicken buffalo sausage ham hock alcatra hamburger kielbasa. Meatloaf rump frankfurter, swine jowl andouille hamburger turducken meatball. Leberkas turducken salami shank, pork loin venison tongue strip steak pork belly cow biltong shankle. Tenderloin pork loin chuck, kevin jowl turducken doner shankle rump t-bone spare ribs porchetta short loin buffalo. Salami kevin shoulder andouille burgdoggen pork. Shoulder drumstick doner, rump spare ribs pork belly kevin porchetta tenderloin. Kielbasa capicola corned beef picanha bresaola pork chislic.
     </>
   ),
 };

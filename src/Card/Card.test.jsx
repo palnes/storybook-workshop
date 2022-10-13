@@ -23,3 +23,5 @@ test('loads and displays greeting', async () => {
 
   expect(screen.getByTestId('card')).toHaveTextContent(expectedChildren);
 });
+
+// test new card creation

@@ -7,16 +7,16 @@ export class App extends React.Component {
     return (
       <>
         <header className={styles.header}>
-          <h1>Hello World</h1>
+          <h1>Hello Pål</h1>
         </header>
         <main>
           <div className={styles.grid}>
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((d) => (
-              <Card>This is card #{d}</Card>
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((digit) => (
+              <Card>This is card #{digit}</Card>
             ))}
           </div>
         </main>
-        <footer>Footer</footer>
+        <footer>Footer like a pro</footer>
       </>
     );
   }

@@ -1,14 +1,57 @@
 :root {
-  --card-background-color: hsl(121, 34%, 70%);
-  --card-text-color: black;
+  --card-background-color: white;
+  --card-text-color: #333;
+  --card-body-padding: 2rem;
+  --card-border: black;
+  --card-footer-background-color: linear-gradient(90deg, rgba(131,58,180,1) 60%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 :root[data-theme='dark'] {
-  --card-background-color: hsl(121, 34%, 30%);
-  --card-text-color: white;
+  --card-background-color: black;
+  --card-text-color: #ccc;
+  --card-border: #f2f2f2;
+  --card-footer-background-color: linear-gradient(90deg, rgba(131,58,180,1) 50%, rgba(253,29,29,1) 50%, rgba(47,28,2,1) 100%);
 }
+
 
 .card {
   background-color: var(--card-background-color);
   color: var(--card-text-color);
+  border: 1px solid var(--card-border);
+  font-family: 'Roboto', sans-serif;
+  /* border-radius: 4px; */
+  min-width: 150px;
+  max-width: 650px;
+  padding: 0; 
 }
+
+.card img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.cardHeader {
+  font-size: 1.2rem;
+  padding: 0px var(--card-body-padding);
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+}
+
+.cardBody {
+  padding: 0px var(--card-body-padding);
+}
+
+.cardFooter {
+  background: var(--card-footer-background-color);
+  padding: var(--card-body-padding);
+}
+
+.button {
+  background: white;
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding: 5px;
+  font-weight: bold;
+}
+
